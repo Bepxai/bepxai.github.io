@@ -29,7 +29,7 @@ import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
 export default defineConfig({
 	site: "https://bepxai.github.io",
 
-	base: "/mizuki",
+	//base: "mizuki",
 	trailingSlash: "always",
 	integrations: [
 		tailwind({
