@@ -20,8 +20,8 @@ import { LinkPreset } from "./types/config";
 const SITE_LANG = "en"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
 
 export const siteConfig: SiteConfig = {
-	title: "Mizuki",
-	subtitle: "One demo website",
+	title: "665FA7",
+	subtitle: "Bepxai & Murasaki's blog",
 
 	lang: SITE_LANG,
 
@@ -44,13 +44,13 @@ export const siteConfig: SiteConfig = {
 	// 顶栏标题配置
 	navbarTitle: {
 		// 顶栏标题文本
-		text: "MizukiUI",
+		text: "665FA7",
 		// 顶栏标题图标路径，默认使用 public/assets/home/home.png
 		icon: "assets/home/home.png",
 	},
 
 	bangumi: {
-		userId: "your-bangumi-id", // 在此处设置你的Bangumi用户ID，可以设置为 "sai" 测试
+		userId: "Bepxai", // 在此处设置你的Bangumi用户ID，可以设置为 "sai" 测试
 	},
 
 	anime: {
@@ -78,13 +78,13 @@ export const siteConfig: SiteConfig = {
 		src: {
 			desktop: [
 				"/assets/desktop-banner/d1.webp",
-				"/assets/desktop-banner/d2.webp",
+				/*"/assets/desktop-banner/d2.webp",
 				"/assets/desktop-banner/d3.webp",
 				"/assets/desktop-banner/d4.webp",
 				"/assets/desktop-banner/d5.webp",
 				"/assets/desktop-banner/d6.webp",
 				"/assets/desktop-banner/d7.webp",
-				"/assets/desktop-banner/d8.webp",
+				"/assets/desktop-banner/d8.webp",*/
 			], // 桌面横幅图片
 			mobile: [
 				"/assets/mobile-banner/m1.webp",
@@ -123,13 +123,13 @@ export const siteConfig: SiteConfig = {
 
 		homeText: {
 			enable: true, // 在主页显示自定义文本
-			title: "Beautiful Mizuki!", // 主页横幅主标题
+			title: "Welcome to 665FA7!", // 主页横幅主标题
 
 			subtitle: [
-				"A Showcase Demo Site",
-				"Carousel Highlight: Innovation",
-				"Carousel Focus: User Experience",
-				"Carousel Spot: Core Advantages",
+				"Here's Bepxai",
+				"and his silly dog Murasaki",
+				"Have a good time!",
+				"JavaScript is a piece of shit",
 			],
 			typewriter: {
 				enable: true, // 启用副标题打字机效果
@@ -188,13 +188,13 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 	src: {
 		desktop: [
 			"/assets/desktop-banner/d1.webp",
-			"/assets/desktop-banner/d2.webp",
+			/*"/assets/desktop-banner/d2.webp",
 			"/assets/desktop-banner/d3.webp",
 			"/assets/desktop-banner/d4.webp",
 			"/assets/desktop-banner/d5.webp",
 			"/assets/desktop-banner/d6.webp",
 			"/assets/desktop-banner/d7.webp",
-			"/assets/desktop-banner/d8.webp",
+			"/assets/desktop-banner/d8.webp",*/
 		], // 桌面横幅图片
 		mobile: [
 			"/assets/mobile-banner/m1.webp",
